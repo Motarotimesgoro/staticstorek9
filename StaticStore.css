@@ -1,0 +1,35 @@
+/* Common elements */
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: url(./Website/Mortar.jpg) no-repeat fixed; 
+    padding: 0;
+    margin: 0;
+-webkit-background-size:100% 100%;
+-moz-background-size: 100% 100%;
+background-size: 100% 100%;
+-o-background-size: 100% 100%;  
+}
+
+section #main {
+    /* background-color: #FCFBE6; */
+    background-color: rgba(252, 251, 243, 0.7);
+    margin: 0 0 0.5em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    /* box-shadow: 1px 1 px 5px #777;  */ offset-x offset-y blur-radius color
+}
+section div.panel {
+    float: left;
+    position: reflective;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+section div.panel img.jerkyType {
+    width: 100%
+}
